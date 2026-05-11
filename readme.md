@@ -52,3 +52,8 @@ Enter the API key in the Streamlit sidebar before using the chatbot.
 * Who is Alan Turing?
 * Recent advancements in Generative AI
 
+## Streamlit UI 
+
+### Homepage
+![Streamlit UI](image.png)
+
