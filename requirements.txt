@@ -1,0 +1,15 @@
+langchain
+langchain_groq
+python_dotenv
+langchain_core
+langchain_community
+langchain_classic
+ollama
+faiss-cpu
+pypdf
+streamlit
+langchain_huggingface
+sentence-transformers
+arxiv
+wikipedia
+ddgs
