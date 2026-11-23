@@ -35,7 +35,7 @@ if prompt:=st.chat_input(placeholder = "What is Machine Learning"):
     st.session_state.messages.append({"role":"user", "content":prompt})
     st.chat_message("user").write(prompt)
 
-    llm = ChatGroq(groq_api_key = api_key, model_name = "meta-llama/llama-4-scout-17b-16e-instruct", streaming = True)
+    llm = ChatGroq(groq_api_key = api_key, model_name = "llama-3.3-70b-versatile", streaming = True)
     tools = [search, arxiv, wiki]
 
     search_agent = initialize_agent(tools, llm, agent = AgentType.ZERO_SHOT_REACT_DESCRIPTION,handling_parsing_errors = True)
