@@ -1,0 +1,660 @@
+[
+  {
+    "id": "Q001",
+    "query": "Who is Alan Turing?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Biography of a historical figure"
+  },
+  {
+    "id": "Q002",
+    "query": "What is the Treaty of Versailles?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Historical event"
+  },
+  {
+    "id": "Q003",
+    "query": "Tell me about the city of Kyoto.",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Place overview"
+  },
+  {
+    "id": "Q004",
+    "query": "What is photosynthesis?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Established science concept"
+  },
+  {
+    "id": "Q005",
+    "query": "Give me an overview of the company Toyota.",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Company background"
+  },
+  {
+    "id": "Q006",
+    "query": "What is the history of the Roman Empire?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Historical overview"
+  },
+  {
+    "id": "Q007",
+    "query": "Who was Marie Curie and what is she known for?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Biography"
+  },
+  {
+    "id": "Q008",
+    "query": "What is the definition of inflation in economics?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Concept definition, stable"
+  },
+  {
+    "id": "Q009",
+    "query": "Explain what the Fibonacci sequence is.",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Well-known math concept"
+  },
+  {
+    "id": "Q010",
+    "query": "What is the Great Barrier Reef?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Geographic landmark"
+  },
+  {
+    "id": "Q011",
+    "query": "Who wrote Pride and Prejudice?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Stable literary fact"
+  },
+  {
+    "id": "Q012",
+    "query": "What is Machine Learning?",
+    "category": "wikipedia_clear",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "General concept definition"
+  },
+  {
+    "id": "Q013",
+    "query": "Find the paper 'Attention Is All You Need'.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Named paper"
+  },
+  {
+    "id": "Q014",
+    "query": "Latest research papers on diffusion models for image generation.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Explicit research-paper request"
+  },
+  {
+    "id": "Q015",
+    "query": "Are there any papers on retrieval-augmented generation evaluation?",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Paper search"
+  },
+  {
+    "id": "Q016",
+    "query": "Show me recent arXiv preprints on quantum error correction.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Explicit arXiv mention"
+  },
+  {
+    "id": "Q017",
+    "query": "What does the original BERT paper propose?",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Specific paper content"
+  },
+  {
+    "id": "Q018",
+    "query": "Find research on low-rank adaptation (LoRA) for fine-tuning LLMs.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Technical research topic"
+  },
+  {
+    "id": "Q019",
+    "query": "Papers about graph neural networks for molecular property prediction.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Paper search"
+  },
+  {
+    "id": "Q020",
+    "query": "Who authored the ResNet deep residual learning paper?",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Paper metadata"
+  },
+  {
+    "id": "Q021",
+    "query": "Look up scholarly work on reinforcement learning from human feedback.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "'Scholarly work' signals papers"
+  },
+  {
+    "id": "Q022",
+    "query": "Find studies on transformers for time-series forecasting.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Research literature"
+  },
+  {
+    "id": "Q023",
+    "query": "What is the abstract of the Mamba state space model paper?",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Abstract retrieval"
+  },
+  {
+    "id": "Q024",
+    "query": "Recent advancements in Generative AI research.",
+    "category": "arxiv_clear",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Research-oriented 'advancements'"
+  },
+  {
+    "id": "Q025",
+    "query": "What is the weather in Durgapur today?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Live data"
+  },
+  {
+    "id": "Q026",
+    "query": "What's the latest news about the Indian cricket team?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Breaking news"
+  },
+  {
+    "id": "Q027",
+    "query": "What is the current price of Bitcoin?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Real-time price"
+  },
+  {
+    "id": "Q028",
+    "query": "Who won the most recent Formula 1 race?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Recent event"
+  },
+  {
+    "id": "Q029",
+    "query": "Best budget laptops to buy this month.",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Shopping / recency"
+  },
+  {
+    "id": "Q030",
+    "query": "Is the Kolkata metro running normally today?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Live status"
+  },
+  {
+    "id": "Q031",
+    "query": "What is the current USD to INR exchange rate?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Live financial data"
+  },
+  {
+    "id": "Q032",
+    "query": "Who is the current CEO of OpenAI?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Position that may change"
+  },
+  {
+    "id": "Q033",
+    "query": "Upcoming movie releases this weekend.",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Time-sensitive"
+  },
+  {
+    "id": "Q034",
+    "query": "What happened in the stock market today?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Same-day news"
+  },
+  {
+    "id": "Q035",
+    "query": "Any new announcements from Google this week?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "easy",
+    "rationale": "Recent news"
+  },
+  {
+    "id": "Q036",
+    "query": "Where can I find a good tutorial for setting up Streamlit with Groq?",
+    "category": "search_clear",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "How-to / web resource lookup"
+  },
+  {
+    "id": "Q037",
+    "query": "Who is Geoffrey Hinton and what are his most recent research papers?",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "arxiv"
+    ],
+    "num_tools_expected": 2,
+    "difficulty": "medium",
+    "rationale": "Bio (wiki) + papers (arxiv)"
+  },
+  {
+    "id": "Q038",
+    "query": "Explain what a transformer model is and find the original paper.",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "arxiv"
+    ],
+    "num_tools_expected": 2,
+    "difficulty": "medium",
+    "rationale": "Concept + paper"
+  },
+  {
+    "id": "Q039",
+    "query": "Who invented the Transformer architecture, and what's the latest news about companies using it?",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "Search"
+    ],
+    "num_tools_expected": 2,
+    "difficulty": "hard",
+    "rationale": "Background + current news"
+  },
+  {
+    "id": "Q040",
+    "query": "Tell me about Yann LeCun and what he said in the news recently.",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "Search"
+    ],
+    "num_tools_expected": 2,
+    "difficulty": "medium",
+    "rationale": "Bio + recent news"
+  },
+  {
+    "id": "Q041",
+    "query": "Find papers on CRISPR gene editing and summarize recent news about it.",
+    "category": "multi_tool",
+    "expected_tools": [
+      "arxiv",
+      "Search"
+    ],
+    "num_tools_expected": 2,
+    "difficulty": "hard",
+    "rationale": "Papers + news (arxiv may be weak for bio, tool choice still arxiv/search)"
+  },
+  {
+    "id": "Q042",
+    "query": "What is reinforcement learning, which recent papers advanced it, and who is hiring RL engineers right now?",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "arxiv",
+      "Search"
+    ],
+    "num_tools_expected": 3,
+    "difficulty": "hard",
+    "rationale": "Uses all three tools"
+  },
+  {
+    "id": "Q043",
+    "query": "Give me background on the company DeepMind, its AlphaFold paper, and its latest announcement.",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "arxiv",
+      "Search"
+    ],
+    "num_tools_expected": 3,
+    "difficulty": "hard",
+    "rationale": "Uses all three tools"
+  },
+  {
+    "id": "Q044",
+    "query": "What is BERT, and are there newer papers that improve on it?",
+    "category": "multi_tool",
+    "expected_tools": [
+      "wikipedia",
+      "arxiv"
+    ],
+    "num_tools_expected": 2,
+    "difficulty": "medium",
+    "rationale": "Concept + literature"
+  },
+  {
+    "id": "Q045",
+    "query": "What is Generative AI?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Definition -> wikipedia, not news/paper"
+  },
+  {
+    "id": "Q046",
+    "query": "Tell me about GPT-4.",
+    "category": "ambiguous",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Stable overview -> wikipedia"
+  },
+  {
+    "id": "Q047",
+    "query": "How does the backpropagation algorithm work?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Textbook concept, not a paper request"
+  },
+  {
+    "id": "Q048",
+    "query": "Tell me about Elon Musk.",
+    "category": "ambiguous",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Bio unless 'latest' is stated"
+  },
+  {
+    "id": "Q049",
+    "query": "What are the newest large language models?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "hard",
+    "rationale": "'Newest' implies recency -> search"
+  },
+  {
+    "id": "Q050",
+    "query": "Who is the Prime Minister of India?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "hard",
+    "rationale": "Office holder may change -> search"
+  },
+  {
+    "id": "Q051",
+    "query": "Is there evidence that chain-of-thought prompting improves reasoning?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "arxiv"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "hard",
+    "rationale": "Evidence question -> research literature"
+  },
+  {
+    "id": "Q052",
+    "query": "What is the population of Japan?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "hard",
+    "rationale": "Stable-ish stat; wikipedia acceptable, search plausible"
+  },
+  {
+    "id": "Q053",
+    "query": "Explain the Riemann hypothesis.",
+    "category": "ambiguous",
+    "expected_tools": [
+      "wikipedia"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "medium",
+    "rationale": "Concept explanation, not a paper search"
+  },
+  {
+    "id": "Q054",
+    "query": "Has anyone solved the Riemann hypothesis recently?",
+    "category": "ambiguous",
+    "expected_tools": [
+      "Search"
+    ],
+    "num_tools_expected": 1,
+    "difficulty": "hard",
+    "rationale": "Recency + claims -> search"
+  },
+  {
+    "id": "Q055",
+    "query": "Hi, how are you?",
+    "category": "no_tool",
+    "expected_tools": [],
+    "num_tools_expected": 0,
+    "difficulty": "easy",
+    "rationale": "Greeting"
+  },
+  {
+    "id": "Q056",
+    "query": "What is 17 multiplied by 23?",
+    "category": "no_tool",
+    "expected_tools": [],
+    "num_tools_expected": 0,
+    "difficulty": "easy",
+    "rationale": "Simple arithmetic"
+  },
+  {
+    "id": "Q057",
+    "query": "Can you rephrase this sentence: 'The cat sat on the mat'?",
+    "category": "no_tool",
+    "expected_tools": [],
+    "num_tools_expected": 0,
+    "difficulty": "easy",
+    "rationale": "Rewriting task"
+  },
+  {
+    "id": "Q058",
+    "query": "Thanks, that was helpful!",
+    "category": "no_tool",
+    "expected_tools": [],
+    "num_tools_expected": 0,
+    "difficulty": "easy",
+    "rationale": "Chit-chat"
+  },
+  {
+    "id": "Q059",
+    "query": "Write a Python function that reverses a string.",
+    "category": "no_tool",
+    "expected_tools": [],
+    "num_tools_expected": 0,
+    "difficulty": "easy",
+    "rationale": "Code generation"
+  },
+  {
+    "id": "Q060",
+    "query": "Translate 'good morning' into French.",
+    "category": "no_tool",
+    "expected_tools": [],
+    "num_tools_expected": 0,
+    "difficulty": "easy",
+    "rationale": "Trivial translation"
+  }
+]
